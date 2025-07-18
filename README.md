@@ -25,6 +25,7 @@ To accurately classify a set of 10 spoken English commands using mel-frequency c
  The training set is augmented with:
  - Pitch shifting (+/- 200 cents)
  - Noise injection (SNR = 10 dB)
+
 Augmentations are applied stochastically to the training samples. Validation and test sets remained unmodified.
 
 # Model Architectures
