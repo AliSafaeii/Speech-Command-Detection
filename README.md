@@ -28,15 +28,15 @@ To accurately classify a set of 10 spoken English commands using mel-frequency c
 Augmentations are applied stochastically to the training samples. Validation and test sets remained unmodified.
 
 # Model Architectures
-Vanilla RNN
-- 3-layer RNN (ReLU activation)
-- 128 hidden units per layer
-- Dropout: 0.25
+- Vanilla RNN:
+  - 3-layer RNN (ReLU activation)
+  - 128 hidden units per layer
+  - Dropout: 0.25
 
-LSTM
-- 3-layer LSTM
-- 128 hidden units per layer
-- Dropout: 0.25
+- LSTM:
+  - 3-layer LSTM
+  - 128 hidden units per layer
+  - Dropout: 0.25
 
 # Model Quantization
 Dynamic post-training quantization is applied to LSTM models.
