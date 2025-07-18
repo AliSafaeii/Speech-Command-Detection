@@ -40,3 +40,13 @@ Augmentations are applied stochastically to the training samples. Validation and
 
 # Model Quantization
 Dynamic post-training quantization is applied to LSTM models.
+
+# Repository Structure
+The repository is organized as follows:
+- [MFCCs.ipynb](https://github.com/AliSafaeii/Speech-Command-Detection/blob/main/MFCCs.ipynb): Dataset preparation and MFCCs feature extraction
+- [MFCCs_DataAug.ipynb](https://github.com/AliSafaeii/Speech-Command-Detection/blob/main/MFCCs_DataAug.ipynb):  Audio data augmentation techniques
+- [RNN.ipynb](https://github.com/AliSafaeii/Speech-Command-Detection/blob/main/RNN.ipynb): Training the Vanilla RNN on original data
+- [RNN_DataAug.ipynb](https://github.com/AliSafaeii/Speech-Command-Detection/blob/main/RNN_DataAug.ipynb): Training the Vanilla RNN on augmented data
+- [LSTM.ipynb](https://github.com/AliSafaeii/Speech-Command-Detection/blob/main/LSTM.ipynb): Training the LSTM on original MFCCs with post-training quantization
+- [LSTM_DataAug.ipynb](https://github.com/AliSafaeii/Speech-Command-Detection/blob/main/LSTM_DataAug.ipynb): Training the LSTM on augmented data with post-training quantization 
+
